@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Food Website Design </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Restro RITIK </a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-bars"></i>
+            <i class="fa fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!--Header section ends-->
+
+    <!--Search Form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here.." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!--Home section starts-->
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish </span>
+                        <h3>Spicy Noodles </h3>
+                        <p>Feeling a little hot and spicy? Let's get Noodley </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish </span>
+                        <h3>Fried chicken </h3>
+                        <p>Even Chickens recommend our fried chicken. When we fry it, you'll buy it! </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish </span>
+                        <h3>Hot Pizza </h3>
+                        <p>Whatever the question,Pizza is the answer.Regular Margharita Pizza [8 inches]</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!--Home section ends-->
+
+    <!-- dishes section starts -->
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our dishes</h3>
+        <h1 class="heading">Popular dishes</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="">
+                <h3>Cheese Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>RS. 89</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="">
+                <h3>Chicken nugget</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>RS. 189</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="">
+                <h3>Roast Chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>RS. 329</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-4.png" alt="">
+                <h3>Pan Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>RS. 149</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-5.png" alt="">
+                <h3>Dessert</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span> Free </span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-6.png" alt="">
+                <h3>Crispy fried chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>RS. 119</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">About US</h3>
+        <h1 class="heading">Why Choose US?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>At Restro Ritik, we’re serving up more than 97 Varities. In fact, Famous recipe is one of our
+                    unexpected
+                    specialties. Reminiscent of butcher shops back in the day, each slow-smoked, sizzling prime chop
+                    measures seven-fingers high. Our signature recipe, that we have perfected for.</p>
+                <p>more than four decades, is rubbed with a secret blend of seasonings, roasted on a
+                    rotisserie with wood for up to six hours .</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 services</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> today's speciality </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Pepperoni Pizza</h3>
+                    <p>The soft dough, mixed with melted cheese, and plenty of toppings and pizza sauce.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 399</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cheese Burger</h3>
+                    <p>creamy Brie. Try it melted on top of these Bacon Burgers on Brioche Buns.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 79</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Crepes</h3>
+                    <p>pumpkin crepes and then filled them with something extra special. </p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 129</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Waffles and Ice cream</h3>
+                    <p>Two waffles with single scoop ice-cream.waffle is crispy</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Berry slab pie</h3>
+                    <p>packed with three types of fruit,this pretty pie get exterior from berry.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 499</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cupcakes</h3>
+                    <p>With vanilla, these Valentine’s day themed cupcakes will be your one true love</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 59</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cocktail</h3>
+                    <p>Gin Based Cocktails.Brandy Based Cocktails.Tequila Based Cocktails</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 89</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Mix 7 Fruits</h3>
+                    <p>mix of assorted fruits! While a blend of sliced peaches, strawberries, pineapple,</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 249</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Lemon Juice</h3>
+                    <p>On top of being refreshing, these drinks can contribute to your health.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">RS. 79</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Customer's Review</h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>Rakesh Dhal</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly. They
+                        know what they’re doing and what they’re talking about, and you can tell making the customers
+                        happy is their main priority. Food is pretty good, some italian classics and some twists, and
+                        for their prices it’s 100% worth .</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Urvi</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I have to say, I enjoyed every single bite of the meal in (RN). I had a 3 course meal, with a
+                        couple of beers. Considering the quality, the price is reasonable. Ideal for those who want a
+                        romantic night out. There was also plenty of room for bigger groups,and you can tell making the
+                        customers happy is their main priority.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Pradeep</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>This is my absolute favorite restaurant in Odisha. The food is always fantastic and no matter
+                        what
+                        I order I am always delighted with my meal! Servers are also great and always efficient, happy
+                        and polite. Can’t wait to return and wouldn’t hesitate to recommend to anyone looking for
+                        somewhere to eat in Odisha.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- order section ends -->
+
+
+    <!-- Footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">mumbai</a>
+                <a href="#">bangalore</a>
+                <a href="#">hyderabad</a>
+                <a href="#">odisha</a>
+                <a href="#">chennai</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">reviews</a>
+                <a href="#">order</a>
+            </div>
+            <div class="box">
+                <h3>Contact-info</h3>
+                <a href="#">+91-7504995410</a>
+                <a href="#">+91-7787993022</a>
+                <a href="#">restroritik@gmail.com</a>
+                <a href="#">ritikroshan9999@gmail.com</a>
+                <a href="#">mumbai, india, 421305</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">copyright @ 2022 by <span>Ritik Roshan Dhal</span></div>
+    </section>
+
+    <!-- Footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="images/Egg rolling.gif" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--Javascript file link-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
